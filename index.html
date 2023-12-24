@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE RICK AND MORTY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/">
+</head>
+<body>
+    <main class="main">
+        <section class="container">
+            <nav class="navBar">
+                <img src="img/RickandMorthy.png" alt="" class="navImg">
+                <div class="logoTitle">The Rick and Morty API
+                </div>
+            </nav>
+            <header class="header">
+                <h1 class="title">Page 1</h1>
+                <select name="pagesSelect" id="pages" class="searchBar">
+                </select>
+            </header>
+            <section class="randomCards">
+
+            </section>
+        </section>
+    </main>
+    <section class="error">
+        <div class="errorText">
+            <h2 class="errorH2">404</h2>
+            <p class="errorP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio nobis, qui distinctio quasi quas cupiditate iure delectus magni ab.</p>
+            <a href="index.html" class="errorButton">Refresh Page</a>
+        </div>  
+        <img src="img/errorImg.png" alt="" class="errorImg">
+    </section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/pagesSelect.js"></script>
+</body>
+</html>
